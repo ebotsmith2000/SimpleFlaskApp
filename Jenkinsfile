@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'slave'}
+    agent { label 'Docker'}
 
     environment {
         DOCKER_HUB_REPO = 'ebotsmith/my-node-app' // Replace with your Docker Hub repo
